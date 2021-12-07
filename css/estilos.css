@@ -172,7 +172,16 @@ body {
 /*Sobre nosotros*/
 
 #headerNosotros {
-    background-image: url("https://img.freepik.com/foto-gratis/vaso-vodka-llama-fuego_185126-106.jpg?size=626&ext=jpg");
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/594/33/136/drink-bar-wallpaper-preview.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*Seccion Registro*/
+
+#headerRegistro {
+    background-image: url("https://images.ecestaticos.com/_LaNE9_iTiWtvDl1UJeqrk_6qmM=/0x102:2115x1298/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F7f6%2F16a%2Fdec%2F7f616adecfeffedd6c75dddd99e0298d.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -262,4 +271,15 @@ body {
 
 #tituloFormulario {
     color: #3f3f3f;
+}
+
+#registro {
+    height: 100%;
+    background-color: #DEDEDE;
+}
+
+#formularioRegistro {
+    height: 1100px;
+    background-color: white;
+    max-width: 500px;
 }
