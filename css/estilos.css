@@ -141,9 +141,29 @@ body {
 /*Carrousel*/
 
 .img-carousel {
-    height: 900px;
+    height: 100%;
 }
 
 .carousel-weston-middle {
     top: 40%
+}
+
+.fondoCarousel {
+    background: #360033;
+    background: -webkit-linear-gradient(150deg, #1c2122, #555155);
+    background: linear-gradient(150deg, #13191a, #555155);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite
+}
+
+@keyframes BgGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
