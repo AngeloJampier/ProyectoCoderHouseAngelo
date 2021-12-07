@@ -147,3 +147,23 @@ body {
 .carousel-weston-middle {
     top: 40%
 }
+
+
+/*Seccion Registro*/
+
+#headerRegistro {
+    background-image: url("https://images.ecestaticos.com/_LaNE9_iTiWtvDl1UJeqrk_6qmM=/0x102:2115x1298/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F7f6%2F16a%2Fdec%2F7f616adecfeffedd6c75dddd99e0298d.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#registro {
+    height: 100%;
+    background-color: #DEDEDE;
+}
+
+#formularioRegistro {
+    height: 1100px;
+    background-color: white;
+    max-width: 500px;
+}
