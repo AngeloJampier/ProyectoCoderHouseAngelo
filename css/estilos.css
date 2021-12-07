@@ -77,6 +77,12 @@ body {
 
 /*Productos*/
 
+#headerProductos {
+    background-image: url("https://wc.wallpaperuse.com/wallp/25-257806_s.jpg");
+    background-position: bottom right;
+    background-size: contain;
+}
+
 .card-img {
     height: 600px;
 }
