@@ -43,10 +43,6 @@ body {
     width: 100px;
 }
 
-.vh-50 {
-    height: 50vmin;
-}
-
 
 /*Productos*/
 
@@ -82,6 +78,12 @@ body {
 
 .iconos {
     font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+    .iconos {
+        font-size: 2rem;
+    }
 }
 
 .fab {
@@ -120,7 +122,7 @@ body {
 }
 
 .carousel-weston-middle {
-    top: 40%
+    top: 70%
 }
 
 .fondoCarousel {
@@ -239,8 +241,8 @@ body {
     position: relative;
     top: -100px;
     max-width: 500px;
-    height: 900px;
-    border-radius: 5px;
+    height: 800px;
+    border-radius: 20px;
     background-color: white;
 }
 
@@ -257,4 +259,5 @@ body {
     height: 1100px;
     background-color: white;
     max-width: 500px;
+    border-radius: 20px;
 }
