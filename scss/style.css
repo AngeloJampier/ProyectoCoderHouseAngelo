@@ -1,0 +1,429 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+body {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+#header {
+  background-image: url("https://i.ibb.co/7N9wpqs/fondo-banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#header img {
+  width: 100px;
+}
+
+#header .fondoButton {
+  background-color: #f3f3f3;
+}
+
+#header .nav-link:hover {
+  color: #eea810 !important;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+  #header .nav-link:hover {
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+#banner {
+  height: 70vh;
+  position: relative;
+  z-index: 2;
+}
+
+#banner p:nth-child(1) {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.fondoCarousel {
+  background: #360033;
+  background: linear-gradient(150deg, #13191a, #555155);
+  background-size: 400% 300%;
+  -webkit-animation: BgGradient 5s ease infinite;
+          animation: BgGradient 5s ease infinite;
+}
+
+.fondoCarousel .img-carousel {
+  height: 100%;
+}
+
+.fondoCarousel .carousel-weston-middle {
+  top: 70%;
+}
+
+@-webkit-keyframes BgGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes BgGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .fontIndex {
+    font-size: 12px;
+  }
+}
+
+/*Añadiendo hover a los iconos del footer*/
+#footer .iconos {
+  font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+  #footer .iconos {
+    font-size: 2rem;
+  }
+}
+
+#footer .fab {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#footer .fa-facebook:hover {
+  color: #3b5998;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#footer .fa-twitter-square:hover {
+  color: #00acee;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#footer .fa-instagram:hover {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-gradient(linear, left top, left bottom, from(#6559ca), color-stop(30%, #bc318f), color-stop(50%, #e33f5f), color-stop(70%, #f77638), to(#fec66d));
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  color: transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-background-clip: text;
+}
+
+/*fin de los hover de footer */
+/*Seccion Nosotros*/
+#headerNosotros {
+  background-image: url("https://media.istockphoto.com/photos/selection-of-hard-strong-alcoholic-drinks-in-big-glasses-and-small-picture-id1129800051?k=20&m=1129800051&s=612x612&w=0&h=EFo_6nUe-_S85wJVAZS4_us1Iab27zNBAOQIedopH9Y=");
+  background-position: center;
+  background-size: cover;
+}
+
+#headerNosotros img {
+  width: 100px;
+}
+
+#headerNosotros .fondoButton {
+  background-color: white;
+}
+
+#headerNosotros .nav-link:hover {
+  color: #eea810 !important;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+  #headerNosotros .nav-link:hover {
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+.experienciasNosotros {
+  background-color: #f3f3f3;
+}
+
+.experienciasNosotros li .media-object-img {
+  width: 160px;
+  height: 140px;
+  margin-right: 15px;
+}
+
+.experienciasNosotros li .media-object-img:hover {
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  .experienciasNosotros li .media-object-img {
+    width: 120px;
+    height: 100px;
+  }
+}
+
+.experienciasNosotros li .textExperiencias {
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .experienciasNosotros li .textExperiencias {
+    font-size: 12px;
+  }
+}
+
+#local {
+  background-color: #f3f3f3;
+  padding-bottom: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  #local {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 30px;
+  }
+}
+
+#local .mapa {
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+}
+
+#local .mapa iframe {
+  width: 100%;
+}
+
+#local .wrapper {
+  width: 50%;
+  padding-top: 100px;
+  -webkit-box-align: justify;
+      -ms-flex-align: justify;
+          align-items: justify;
+}
+
+@media (max-width: 1200px) {
+  #local .wrapper {
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  #local .wrapper .textLocalContainer {
+    font-size: 14px;
+  }
+}
+
+#local .wrapper #numero-local div {
+  padding: 0 20px 0 0;
+  height: 48px;
+}
+
+#local .wrapper #numero-local div:not(:last-child) {
+  border-right: 2px solid #3f3f3f;
+}
+
+#local .wrapper #numero-local div:not(:first-child) {
+  padding-left: 20px;
+}
+
+#local .wrapper #numero-local p {
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  #local .wrapper #numero-local .textLocal {
+    font-size: 12px;
+  }
+}
+
+/*Seccion Productos*/
+#headerProductos {
+  background-image: url("https://wc.wallpaperuse.com/wallp/25-257806_s.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#headerProductos img {
+  width: 100px;
+}
+
+#headerProductos .fondoButton {
+  background-color: #f3f3f3;
+}
+
+#headerProductos .nav-link:hover {
+  color: #eea810 !important;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+  #headerProductos .nav-link:hover {
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+#section .card-effect:hover .card {
+  -webkit-clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%);
+          clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%);
+}
+
+#section .card-effect:hover .card-img-overlay {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+#section .card-effect .card {
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+  -webkit-clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
+          clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
+}
+
+#section .card-effect .card .card-img-filter {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+#section .card-effect .card .card-img-overlay {
+  -webkit-transition-duration: .6s;
+          transition-duration: .6s;
+}
+
+/*Mi seccion Contacto*/
+#headerContacto {
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1009/744/893/alcohol-bar-bottles-container-wallpaper-preview.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#headerContacto img {
+  width: 100px;
+}
+
+#headerContacto .fondoButton {
+  background-color: white;
+}
+
+#headerContacto .nav-link:hover {
+  color: #eea810 !important;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+  #headerContacto .nav-link:hover {
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+#contacto {
+  position: relative;
+  min-height: 900px;
+  background-color: #DEDEDE;
+}
+
+#contacto #bg-contacto svg {
+  position: relative;
+  top: -5px;
+}
+
+#contacto #formulario {
+  position: relative;
+  top: -100px;
+  max-width: 500px;
+  height: 800px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+#contacto #formulario #tituloFormulario {
+  color: #3f3f3f;
+}
+
+/*Seccion Registro*/
+#headerRegistro {
+  background-image: url("https://images.ecestaticos.com/_LaNE9_iTiWtvDl1UJeqrk_6qmM=/0x102:2115x1298/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F7f6%2F16a%2Fdec%2F7f616adecfeffedd6c75dddd99e0298d.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#headerRegistro img {
+  width: 100px;
+}
+
+#headerRegistro .fondoButton {
+  background-color: white;
+}
+
+#headerRegistro .nav-link:hover {
+  color: #eea810 !important;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+  #headerRegistro .nav-link:hover {
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+#registro {
+  height: 100%;
+  background-color: #DEDEDE;
+}
+
+#registro #formularioRegistro {
+  height: 1100px;
+  background-color: white;
+  max-width: 500px;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */

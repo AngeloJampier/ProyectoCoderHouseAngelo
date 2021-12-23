@@ -1,0 +1,47 @@
+@mixin transiHover {
+    transition: all 250ms ease-in-out;
+    transform: scale(1.1);
+}
+
+@mixin transiHoverMedia {
+    transition: all 250ms ease-in-out;
+    transform: scale(1.05);
+}
+
+@mixin fondoBaner {
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin contentBaner {
+    height: 70vh;
+    position: relative;
+    z-index: 2;
+    p:nth-child(1) {
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
+}
+
+@mixin formContacto {
+    #formulario {
+        position: relative;
+        top: -100px;
+        max-width: 500px;
+        height: 800px;
+        border-radius: 20px;
+        background-color: white;
+        #tituloFormulario {
+            color: #3f3f3f;
+        }
+    }
+}
+
+@mixin formRegistro {
+    #formularioRegistro {
+        height: 1100px;
+        background-color: white;
+        max-width: 500px;
+        border-radius: 20px;
+    }
+}

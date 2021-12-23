@@ -5,11 +5,7 @@ body {
 }
 
 .nav-link:hover {
-    color: black !important;
-}
-
-.nav-item {
-    font-size: 30px;
+    color: rgb(238, 168, 16) !important;
 }
 
 #banner {
@@ -24,9 +20,6 @@ body {
 
 .myTextsLight {
     font-weight: 500;
-}
-
-.MyTexts {
     font-size: 1.25rem;
 }
 

@@ -1,0 +1,27 @@
+/*Seccion Registro*/
+
+#headerRegistro {
+    background-image: url("https://images.ecestaticos.com/_LaNE9_iTiWtvDl1UJeqrk_6qmM=/0x102:2115x1298/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F7f6%2F16a%2Fdec%2F7f616adecfeffedd6c75dddd99e0298d.jpg");
+    @include fondoBaner;
+    img {
+        width: 100px;
+    }
+    .fondoButton {
+        background-color: white;
+    }
+    .nav-link {
+        &:hover {
+            color: $colorHover;
+            @include transiHover;
+            @media (max-width: 991px) {
+                @include transiHoverMedia;
+            }
+        }
+    }
+}
+
+#registro {
+    height: 100%;
+    background-color: #DEDEDE;
+    @include formRegistro;
+}

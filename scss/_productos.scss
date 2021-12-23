@@ -1,0 +1,44 @@
+/*Seccion Productos*/
+
+#headerProductos {
+    background-image: url("https://wc.wallpaperuse.com/wallp/25-257806_s.jpg");
+    @include fondoBaner;
+    img {
+        width: 100px;
+    }
+    .fondoButton {
+        background-color: $bgcolor;
+    }
+    .nav-link {
+        &:hover {
+            color: $colorHover;
+            @include transiHover;
+            @media (max-width: 991px) {
+                @include transiHoverMedia;
+            }
+        }
+    }
+}
+
+#section {
+    .card-effect {
+        &:hover {
+            .card {
+                clip-path: polygon( 50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%);
+            }
+            .card-img-overlay {
+                transform: scale(0.8);
+            }
+        }
+        .card {
+            transition-duration: 0.6s;
+            clip-path: polygon( 50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
+            .card-img-filter {
+                filter: brightness(0.5);
+            }
+            .card-img-overlay {
+                transition-duration: .6s;
+            }
+        }
+    }
+}

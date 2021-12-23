@@ -1,0 +1,98 @@
+/*Seccion Nosotros*/
+
+#headerNosotros {
+    background-image: url("https://media.istockphoto.com/photos/selection-of-hard-strong-alcoholic-drinks-in-big-glasses-and-small-picture-id1129800051?k=20&m=1129800051&s=612x612&w=0&h=EFo_6nUe-_S85wJVAZS4_us1Iab27zNBAOQIedopH9Y=");
+    @include fondoBaner;
+    img {
+        width: 100px;
+    }
+    .fondoButton {
+        background-color: white;
+    }
+    .nav-link {
+        &:hover {
+            color: $colorHover;
+            @include transiHover;
+            @media (max-width: 991px) {
+                @include transiHoverMedia;
+            }
+        }
+    }
+}
+
+.experienciasNosotros {
+    background-color: $bgcolor;
+    li {
+        .media-object-img {
+            width: 160px;
+            height: 140px;
+            margin-right: 15px;
+            &:hover {
+                @include transiHover;
+            }
+            @media (max-width: $pointmd) {
+                width: 120px;
+                height: 100px;
+            }
+        }
+        .textExperiencias {
+            font-size: 14px;
+            @media (max-width: $pointmd) {
+                font-size: $fontMedia;
+            }
+        }
+    }
+}
+
+#local {
+    background-color: $bgcolor;
+    padding-bottom: 100px;
+    justify-content: center;
+    @media (max-width: $pointxl) {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .mapa {
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+        iframe {
+            width: 100%;
+        }
+    }
+    .wrapper {
+        width: 50%;
+        padding-top: 100px;
+        align-items: justify;
+        @media (max-width: $pointxl) {
+            width: 100%;
+            margin: auto;
+            padding-top: 10px;
+        }
+        .textLocalContainer {
+            @media (max-width: $pointmd) {
+                font-size: 14px;
+            }
+        }
+        #numero-local {
+            div {
+                padding: 0 20px 0 0;
+                height: 48px;
+                &:not(:last-child) {
+                    border-right: 2px solid #3f3f3f;
+                }
+                &:not(:first-child) {
+                    padding-left: 20px;
+                }
+            }
+            p {
+                margin: 0;
+            }
+            .textLocal {
+                @media (max-width: $pointmd) {
+                    font-size: $fontMedia;
+                }
+            }
+        }
+    }
+}

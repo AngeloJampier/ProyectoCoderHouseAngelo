@@ -1,0 +1,34 @@
+/*Mi seccion Contacto*/
+
+#headerContacto {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/1009/744/893/alcohol-bar-bottles-container-wallpaper-preview.jpg");
+    @include fondoBaner;
+    img {
+        width: 100px;
+    }
+    .fondoButton {
+        background-color: white;
+    }
+    .nav-link {
+        &:hover {
+            color: $colorHover;
+            @include transiHover;
+            @media (max-width: 991px) {
+                @include transiHoverMedia;
+            }
+        }
+    }
+}
+
+#contacto {
+    position: relative;
+    min-height: 900px;
+    background-color: #DEDEDE;
+    #bg-contacto {
+        svg {
+            position: relative;
+            top: -5px;
+        }
+    }
+    @include formContacto;
+}
