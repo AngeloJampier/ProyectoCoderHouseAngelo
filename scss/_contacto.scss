@@ -21,9 +21,13 @@
 }
 
 #contacto {
-    position: relative;
-    min-height: 900px;
-    background-color: #DEDEDE;
+    position: static;
+    height: 100%;
+    background-color: white;
+    @media (max-width: $pointmd) {
+        height: 820px;
+        background-color: #F4F1F1;
+    }
     #bg-contacto {
         svg {
             position: relative;

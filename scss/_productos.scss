@@ -3,6 +3,9 @@
 #headerProductos {
     background-image: url("https://wc.wallpaperuse.com/wallp/25-257806_s.jpg");
     @include fondoBaner;
+    @media (max-width: 700px) {
+        background-position: right;
+    }
     img {
         width: 100px;
     }
@@ -22,6 +25,7 @@
 
 #section {
     .card-effect {
+        padding: 10px;
         &:hover {
             .card {
                 clip-path: polygon( 50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%);

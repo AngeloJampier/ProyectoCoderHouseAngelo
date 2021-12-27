@@ -3,6 +3,9 @@
 #headerNosotros {
     background-image: url("https://media.istockphoto.com/photos/selection-of-hard-strong-alcoholic-drinks-in-big-glasses-and-small-picture-id1129800051?k=20&m=1129800051&s=612x612&w=0&h=EFo_6nUe-_S85wJVAZS4_us1Iab27zNBAOQIedopH9Y=");
     @include fondoBaner;
+    @media (max-width: 700px) {
+        background-position: left;
+    }
     img {
         width: 100px;
     }
@@ -24,8 +27,8 @@
     background-color: $bgcolor;
     li {
         .media-object-img {
-            width: 160px;
-            height: 140px;
+            width: 150px;
+            height: 100px;
             margin-right: 15px;
             &:hover {
                 @include transiHover;
@@ -33,6 +36,7 @@
             @media (max-width: $pointmd) {
                 width: 120px;
                 height: 100px;
+                margin: auto;
             }
         }
         .textExperiencias {
@@ -62,7 +66,7 @@
     }
     .wrapper {
         width: 50%;
-        padding-top: 100px;
+        padding-top: 20px;
         align-items: justify;
         @media (max-width: $pointxl) {
             width: 100%;

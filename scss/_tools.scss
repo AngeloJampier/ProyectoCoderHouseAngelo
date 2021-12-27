@@ -30,7 +30,7 @@
         max-width: 500px;
         height: 800px;
         border-radius: 20px;
-        background-color: white;
+        background-color: #F4F1F1;
         #tituloFormulario {
             color: #3f3f3f;
         }
@@ -39,8 +39,10 @@
 
 @mixin formRegistro {
     #formularioRegistro {
+        position: relative;
+        max-height: 1100px;
         height: 1100px;
-        background-color: white;
+        background-color: #F4F1F1;
         max-width: 500px;
         border-radius: 20px;
     }

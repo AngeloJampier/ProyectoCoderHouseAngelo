@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Licoreria DrinkHouse que te atiende las 24 horas, disponible todos los dias.">
-    <meta name="keywords" content="whisky, ron, vodka, ron, pisco, vino">
+    <meta name="description" content="Licoreria DrinkHouse que te atiende las 24 horas en Villa el Salvador, disponible todos los dias.">
+    <meta name="keywords" content="V.E.S,whisky, ron, vodka, ron, pisco, vino">
     <title>Drink Licores </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -14,8 +14,10 @@
 </head>
 
 <body>
+    <!--Mi header-->
     <header id="header">
         <div class="container vh-60">
+            <!--Mi navbar-->
             <nav class="navbar navbar-expand-lg navbar-light fs-4 font-weight-bold">
                 <div class="container-fluid ">
                     <a href="index.html" class="  mb-3 mb-xl-0 px-3">
@@ -35,7 +37,7 @@
                     </div>
                 </div>
             </nav>
-
+            <!--Fin de mi navbar-->
             <article id="banner" class=" d-flex align-items-center container-fluid">
                 <div class="col-sm-12 col-container-10 fs-5">
                     <div class="row">
@@ -49,34 +51,45 @@
             </article>
         </div>
     </header>
-    <section class="carousel slide container-fluid  fondoCarousel" id="carousel-weston">
-        <div class="carousel-inner container">
+    <!--Fin header-->
+
+    <!--Inicio de mi carousel-->
+    <section id="carousel-weston" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-weston" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-weston" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-weston" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100 img-carousel" src="assets/carouse-1.jpg" alt="carousel">
-                <div class="carousel-caption d-none d-md-block carousel-weston-middle">
-                    <h2 class="text-uppercase text-white">Una buena bebida se diferencia por su fragancia</h2>
+                <img src="assets/carouse-1.jpg" class="d-block  carouselImg" alt="carousel 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Una buena bebida se diferencia por su fragancia</h3>
                 </div>
             </div>
-            <div class="carousel-item ">
-                <img class="d-block w-100 img-carousel" src="assets/carouse2.jpg" alt="carousel2">
-                <div class="carousel-caption d-none d-md-block carousel-weston-middle">
-                    <h2 class=" text-uppercase text-white">En el mundo pueden existir diferente tipo de cosas pero nada como la variedad de licores</h2>
+            <div class="carousel-item">
+                <img src="assets/carouse2.jpg" class="d-block carouselImg" alt="carousel 2">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h3>En el mundo pueden existir diferente tipo de cosas pero nada como la variedad de licores</h3>
                 </div>
             </div>
-            <div class="carousel-item ">
-                <img class="d-block w-100 img-carousel" src="assets/carouse3.jpg" alt="carousel3">
-                <div class="carousel-caption d-none d-md-block carousel-weston-middle">
-                    <h2 class=" text-uppercase text-white ">La bebida sin los amigos, no es bebida</h2>
+            <div class="carousel-item">
+                <img src="assets/carouse3.jpg" class="d-block carouselImg" alt="carousel 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>La bebida sin los amigos, no es bebida</h3>
                 </div>
             </div>
         </div>
-        <a href="#carousel-weston" class="carousel-control-prev" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a href="#carousel-weston" class="carousel-control-next" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-weston" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-weston" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
     </section>
+    <!--Fin de mi carousel-->
 
     <!--Caracteristicas-->
     <section class="container" id="caracteristicas">
@@ -87,7 +100,6 @@
             <!---Descripciones-->
             <p class="col-12 col-md-6 fontIndex">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, sed facere? Similique ratione nemo incidunt voluptatibus officiis molestias quod laboriosam dolore fugiat excepturi deleniti praesentium, vero ducimus, aperiam delectus harum?
-
             </p>
             <p class="col-12 col-md-6 fontIndex">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veniam deserunt natus explicabo molestiae, aspernatur accusamus iusto eos rerum architecto autem maiores libero officia a quisquam, voluptatibus, eum deleniti! A?
@@ -98,7 +110,7 @@
                 <p class="font-weight-bold text-capitalize fontIndex">10am - 8pm</p>
             </div>
             <div class="col-6 col-md-3 text-center">
-                <h4 class=" text-warning">¿Metodo de pago?</h4>
+                <h4 class=" text-warning">¿Pagó?</h4>
                 <p class="font-weight-bold text-capitalize fontIndex">Tarjeta debito</p>
             </div>
             <div class="col-6 col-md-3 text-center">
@@ -113,6 +125,8 @@
             <button class="col-auto btn btn-warning text-white mx-auto my-4 ">Consultar</button>
         </article>
     </section>
+
+    <!--Inicio de mi footer-->
     <footer id="footer" class="bg-dark text-white">
         <div class="container">
             <div class="row justify-content-center">
