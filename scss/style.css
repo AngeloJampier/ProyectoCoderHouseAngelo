@@ -191,10 +191,6 @@ body {
   }
 }
 
-.experienciasNosotros {
-  background-color: #f3f3f3;
-}
-
 .experienciasNosotros li .media-object-img {
   width: 150px;
   height: 100px;
@@ -216,13 +212,30 @@ body {
   }
 }
 
-.experienciasNosotros li .textExperiencias {
-  font-size: 14px;
+.experienciasNosotros li .media-body {
+  background-color: #f3f3f3;
+  border-radius: 25px;
+  padding: 10px 20px 0 20px;
+}
+
+.experienciasNosotros li .media-body .textCompra {
+  font-size: 23px;
 }
 
 @media (max-width: 500px) {
-  .experienciasNosotros li .textExperiencias {
-    font-size: 12px;
+  .experienciasNosotros li .media-body .textCompra {
+    font-size: 18px;
+  }
+}
+
+.experienciasNosotros li .media-body .textExperiencias {
+  font-size: 16px;
+  text-align: justify;
+}
+
+@media (max-width: 500px) {
+  .experienciasNosotros li .media-body .textExperiencias {
+    font-size: 13px;
   }
 }
 
@@ -268,6 +281,10 @@ body {
   }
 }
 
+#local .wrapper .textLocalContainer {
+  text-align: justify;
+}
+
 @media (max-width: 500px) {
   #local .wrapper .textLocalContainer {
     font-size: 14px;
@@ -293,7 +310,7 @@ body {
 
 @media (max-width: 500px) {
   #local .wrapper #numero-local .textLocal {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 

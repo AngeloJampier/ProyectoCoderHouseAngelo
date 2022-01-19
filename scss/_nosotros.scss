@@ -24,7 +24,6 @@
 }
 
 .experienciasNosotros {
-    background-color: $bgcolor;
     li {
         .media-object-img {
             width: 150px;
@@ -39,10 +38,22 @@
                 margin: auto;
             }
         }
-        .textExperiencias {
-            font-size: 14px;
-            @media (max-width: $pointmd) {
-                font-size: $fontMedia;
+        .media-body {
+            background-color: $bgcolor;
+            border-radius: 25px;
+            padding: 10px 20px 0 20px;
+            .textCompra {
+                font-size: 23px;
+                @media ( max-width: $pointmd) {
+                    font-size: 18px;
+                }
+            }
+            .textExperiencias {
+                font-size: 16px;
+                text-align: justify;
+                @media (max-width: $pointmd) {
+                    font-size: 13px;
+                }
             }
         }
     }
@@ -74,8 +85,9 @@
             padding-top: 10px;
         }
         .textLocalContainer {
+            text-align: justify;
             @media (max-width: $pointmd) {
-                font-size: 14px;
+                font-size: $fontNormal;
             }
         }
         #numero-local {
@@ -94,7 +106,7 @@
             }
             .textLocal {
                 @media (max-width: $pointmd) {
-                    font-size: $fontMedia;
+                    font-size: 13px;
                 }
             }
         }
