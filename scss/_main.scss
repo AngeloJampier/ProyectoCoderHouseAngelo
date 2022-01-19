@@ -27,7 +27,14 @@
 }
 
 .fontIndex {
+    text-align: justify;
     @media (max-width: $pointmd) {
-        font-size: $fontMedia;
+        font-size: $fontNormal;
+    }
+}
+
+.fontPreguntas {
+    @media (max-width: $pointmd) {
+        font-size: $fontNormal;
     }
 }
