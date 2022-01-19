@@ -2,27 +2,21 @@
 
 #footer {
     .drinkFooter {
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: bold;
     }
     .seccion {
-        padding: 20px 0px;
-        font-weight: bold;
-        @media (max-width: 400px) {}
-        font-size: 0.9rem;
+        @include footerEstilos;
     }
     .social {
-        padding: 20px 0px;
-        font-weight: bold;
-        @media (max-width: 400px) {}
-        font-size: 0.9rem;
+        @include footerEstilos;
     }
     .iconos {
         font-size: map-get($footer, font);
         @media (max-width: 768px) {
             font-size: map-get($footer, fontMedia);
         }
-        @media (max-width: 400px) {
+        @media (max-width: $pointsm) {
             font-size: 1.5rem;
             flex-direction: column;
             align-items: center;

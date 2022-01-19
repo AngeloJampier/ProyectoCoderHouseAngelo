@@ -69,20 +69,32 @@ body {
 
 /*Añadiendo hover a los iconos del footer*/
 #footer .drinkFooter {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 #footer .seccion {
   padding: 20px 0px;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 400px) {
+  #footer .seccion {
+    font-size: 0.9rem;
+  }
 }
 
 #footer .social {
   padding: 20px 0px;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 400px) {
+  #footer .social {
+    font-size: 0.9rem;
+  }
 }
 
 #footer .iconos {
