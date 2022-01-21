@@ -32,20 +32,6 @@
     }
 }
 
-@mixin formContacto {
-    #formulario {
-        position: relative;
-        top: -100px;
-        max-width: 500px;
-        height: 800px;
-        border-radius: 20px;
-        background-color: #F4F1F1;
-        #tituloFormulario {
-            color: #3f3f3f;
-        }
-    }
-}
-
 @mixin formRegistro {
     #formularioRegistro {
         position: relative;

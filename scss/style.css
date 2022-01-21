@@ -389,7 +389,7 @@ body {
 
 /*Mi seccion Contacto*/
 #headerContacto {
-  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1009/744/893/alcohol-bar-bottles-container-wallpaper-preview.jpg");
+  background-image: url("https://m.media-amazon.com/images/I/617ZwBvoU4L._AC_SL1001_.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -419,35 +419,26 @@ body {
   }
 }
 
-#contacto {
-  position: static;
-  height: 100%;
-  background-color: white;
+.fondoContacto {
+  background-color: black;
 }
 
-@media (max-width: 500px) {
-  #contacto {
-    height: 820px;
-    background-color: #F4F1F1;
-  }
+#contacto .fondoMensaje {
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/859/689/238/alcohol-drink-drinks-liquor-wallpaper-preview.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-#contacto #bg-contacto svg {
-  position: relative;
-  top: -5px;
+#contacto .fondoMensaje .textFont {
+  font-weight: 600;
 }
 
-#contacto #formulario {
-  position: relative;
-  top: -100px;
-  max-width: 500px;
-  height: 800px;
-  border-radius: 20px;
+#contacto .cardForm {
   background-color: #F4F1F1;
 }
 
-#contacto #formulario #tituloFormulario {
-  color: #3f3f3f;
+#contacto .cardForm .textFont {
+  font-weight: 600;
 }
 
 /*Seccion Registro*/

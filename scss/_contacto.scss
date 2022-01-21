@@ -1,7 +1,7 @@
 /*Mi seccion Contacto*/
 
 #headerContacto {
-    background-image: url("https://p4.wallpaperbetter.com/wallpaper/1009/744/893/alcohol-bar-bottles-container-wallpaper-preview.jpg");
+    background-image: url("https://m.media-amazon.com/images/I/617ZwBvoU4L._AC_SL1001_.jpg");
     @include fondoBaner;
     img {
         width: 100px;
@@ -20,19 +20,22 @@
     }
 }
 
+.fondoContacto {
+    background-color: black;
+}
+
 #contacto {
-    position: static;
-    height: 100%;
-    background-color: white;
-    @media (max-width: $pointmd) {
-        height: 820px;
-        background-color: #F4F1F1;
-    }
-    #bg-contacto {
-        svg {
-            position: relative;
-            top: -5px;
+    .fondoMensaje {
+        background-image: url("https://p4.wallpaperbetter.com/wallpaper/859/689/238/alcohol-drink-drinks-liquor-wallpaper-preview.jpg");
+        @include fondoBaner;
+        .textFont {
+            font-weight: 600;
         }
     }
-    @include formContacto;
+    .cardForm {
+        background-color: #F4F1F1;
+        .textFont {
+            font-weight: 600;
+        }
+    }
 }
