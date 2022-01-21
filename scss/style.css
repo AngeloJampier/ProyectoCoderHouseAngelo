@@ -383,6 +383,10 @@ body {
           transition-duration: .6s;
 }
 
+.modalColor {
+  color: white;
+}
+
 /*Mi seccion Contacto*/
 #headerContacto {
   background-image: url("https://p4.wallpaperbetter.com/wallpaper/1009/744/893/alcohol-bar-bottles-container-wallpaper-preview.jpg");
