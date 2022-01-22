@@ -155,15 +155,9 @@ body {
 /*fin de los hover de footer */
 /*Seccion Nosotros*/
 #headerNosotros {
-  background-image: url("https://media.istockphoto.com/photos/selection-of-hard-strong-alcoholic-drinks-in-big-glasses-and-small-picture-id1129800051?k=20&m=1129800051&s=612x612&w=0&h=EFo_6nUe-_S85wJVAZS4_us1Iab27zNBAOQIedopH9Y=");
+  background-image: url("https://www.eluniversal.com.mx/sites/default/files/2018/05/16/wine-dharma-456183-unsplash_los_cocteles_mas_populares_menu_el_universal.jpg");
   background-position: center;
   background-size: cover;
-}
-
-@media (max-width: 700px) {
-  #headerNosotros {
-    background-position: left;
-  }
 }
 
 #headerNosotros img {
