@@ -441,22 +441,22 @@ body {
   font-weight: 600;
 }
 
-/*Seccion Registro*/
-#headerRegistro {
+/*Seccion Recetario*/
+#headerRecetario {
   background-image: url("https://images.ecestaticos.com/_LaNE9_iTiWtvDl1UJeqrk_6qmM=/0x102:2115x1298/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F7f6%2F16a%2Fdec%2F7f616adecfeffedd6c75dddd99e0298d.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#headerRegistro img {
+#headerRecetario img {
   width: 100px;
 }
 
-#headerRegistro .fondoButton {
+#headerRecetario .fondoButton {
   background-color: white;
 }
 
-#headerRegistro .nav-link:hover {
+#headerRecetario .nav-link:hover {
   color: #eea810 !important;
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
@@ -465,7 +465,7 @@ body {
 }
 
 @media (max-width: 991px) {
-  #headerRegistro .nav-link:hover {
+  #headerRecetario .nav-link:hover {
     -webkit-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out;
     -webkit-transform: scale(1.05);
@@ -473,18 +473,80 @@ body {
   }
 }
 
-#registro {
-  position: static;
-  height: 100%;
-  background-color: white;
+.contenedor {
+  width: 100%;
+  height: 100vh;
+  padding-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat 3, 1fr;
+      grid-template-columns: repeat 3, 1fr;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
 }
 
-#registro #formularioRegistro {
+.contenedor figure {
   position: relative;
-  max-height: 1100px;
-  height: 1100px;
-  background-color: #F4F1F1;
-  max-width: 500px;
-  border-radius: 20px;
+  width: 350px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.contenedor figure:hover .capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.contenedor figure:hover .capa h3 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.contenedor figure:hover img {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.contenedor figure img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+.contenedor figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(21, 56, 63, 0.7);
+  opacity: 0;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  visibility: hidden;
+  text-align: center;
+  color: white;
+}
+
+.contenedor figure .capa h3 {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 120px;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.contenedor figure .capa p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
